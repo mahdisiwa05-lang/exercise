@@ -1,0 +1,47 @@
+
+package se;
+
+
+public class SE {
+
+   
+   
+    public static void main(String[] args) {
+    // this program will display a number which it belongs to the month
+    double x = Math.random()*12+1;      
+                   
+  System.out.println("The number is "+ (int)x +" and it refers to :"); 
+    if((int)x==1)
+            System.out.println("Junuary");
+        else if((int)x==2)
+            System.out.println("February");
+        else if((int)x==3)
+            System.out.println("March");
+        else if((int)x==4)  
+            System.out.println("April");
+        else if((int)x==5)
+            System.out.println("May");
+        else if ((int)x==6)
+            System.out.println("June");
+        else if((int)x==7)
+            System.out.println("July");
+        else if((int)x==8)
+            System.out.println("August");
+           else if ((int)x==9) 
+        System.out.println("September");
+                   else if ((int)x==10)
+ System.out.println("October");
+            else if ((int)x==11)
+                System.out.println("November");
+            else if((int)x==12)
+            System.out.println("December");
+                   
+  
+    }
+    
+
+}
+                                
+            }
+    
+

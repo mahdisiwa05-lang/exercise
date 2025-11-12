@@ -1,0 +1,81 @@
+
+package se.first;
+
+import java.util.Scanner;
+
+
+public class SEFirst {
+
+   
+    public static void main(String[] args) {
+        System.out.print("Welcome to Mathemaic basic addition exam");
+        System.out.print(" we will ask you five addition questions.");
+        System.out.print("  the number are between zero to hundred.\n");
+        System.out.println(" you have five minute to answer to this questions.");
+        System.out.println("the first question is:");
+Scanner input = new Scanner(System.in);
+int num1=(int)(Math.random()*100);
+int num2=(int)(Math.random()*100);
+int num3=(int)(Math.random()*100);
+int num4=(int)(Math.random()*100);
+int num5=(int)(Math.random()*100);
+int num6=(int)(Math.random()*100);
+int num7=(int)(Math.random()*100);
+int num8=(int)(Math.random()*100);
+int num9=(int)(Math.random()*100);
+int num10=(int)(Math.random()*100);
+int correct =0;
+
+    System.out.println("What is "+num1+"+"+num2+" =?");
+int answer1 =input.nextInt();
+    if(answer1==num1+num2){
+        System.out.print("\n");
+    correct++;
+    }
+        System.out.println("What is "+num3+"+"+num4+"=?");
+    int answer2 = input.nextInt();
+    if(answer2==num3+num4){
+        System.out.print("\n");
+    correct++;}
+    System.out.println("what is "+num5+"+"+num6+" =?");
+int answer3=input.nextInt();
+if(answer3==num5+num6){
+        System.out.print("\n");
+correct++;}
+    System.out.println("what is "+num7+"+"+num8+" =?");
+int answer4=input.nextInt();
+if(answer4==num7+ num8){
+        System.out.print("\n");
+correct++;}
+    System.out.println("what is "+num9+"+"+num10+" =?");
+    int answer5 = input.nextInt();
+    if(answer5==num9+ num10){
+        System.out.print("\n");
+    correct++;}
+        System.out.println("your correct answer are ("+correct+") answer(s)");
+    
+      if(correct>=3)
+            System.out.println("congratulation! You pass the exam successfully");
+             else   
+            System.out.println("Sorry you fail the exam");
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              }
+
+
+
+
+
+
+
+
+
+
+}

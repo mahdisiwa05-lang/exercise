@@ -1,0 +1,39 @@
+
+package se.first;
+
+import java.util.Scanner;
+
+
+public class SEFirst {
+
+   
+    public static void main(String[] args) {
+
+
+    Scanner input = new Scanner(System.in);
+   int num1 =(int) (Math.random()*101);
+   int num2= (int)(Math.random()*101);  
+  
+   int num3 =(num1+num2);
+   int answer = -1000;
+  
+    while(answer != num3){
+    System.out.println( "what is " +num1+"+"+num2+" =?");
+  answer = input.nextInt();
+if(answer==num3)
+            System.out.println("Great! Your answer is correct");
+else if(answer>num3)
+            System.out.println("your answer is wrong");
+else if(answer<num3)
+            System.out.println("you answer is wrong");
+
+
+
+
+   
+
+}
+
+}
+
+}

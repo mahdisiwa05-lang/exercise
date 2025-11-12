@@ -1,0 +1,38 @@
+
+package progect;
+import java.util.Scanner;
+
+public class Progect {
+
+    
+    public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+        System.out.print("enter a string to check ");
+        System.out.print("wheter is it palindrome or no \n");
+    String p =input.nextLine();
+    int low =0;
+    // we take low equal to zero because counting in computer start from zero
+    
+    int high =p.length()-1;
+    // we take low zero so length need to be one case litte then started from one
+    boolean palindrome =true;
+    while(low<high){
+    if(p.charAt(low)!=p.charAt(high)){
+    palindrome=false;
+    
+    
+    
+    
+    
+    }low++;
+    high--;
+    
+    break;
+    
+    
+    }if(palindrome)
+            System.out.println(p+" is a palindrome");
+        else
+            System.out.println(p+" is not a palindrome");
+        }
+}
