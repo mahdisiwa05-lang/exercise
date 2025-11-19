@@ -1,0 +1,21 @@
+
+package randompoint;
+public class Randompoint {
+    public static void main(String[] args) {
+  double x = Math.random()*100-50;
+  double y = Math.random()*200-100;
+        System.out.println("Random point in rectangle:("+x+","+y+")");
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+}
